@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.RizkySugiharto/merchant-scam-guard-mcp",
+  "title": "Merchant Domain Scam & Rug-Pull Guard MCP",
+  "description": "Pre-purchase merchant trust verifier for autonomous shopping and payment agents. Free discovery; paid x402 USDC risk scoring, checkout URL auditing, and refund policy analysis.",
+  "repository": {
+    "url": "https://github.com/RizkySugiharto/merchant-scam-guard-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://merchant-scam-guard-mcp.vercel.app/mcp"
+    }
+  ]
+}
